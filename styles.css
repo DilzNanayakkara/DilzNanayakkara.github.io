@@ -1,13 +1,60 @@
-.full{
-	background-color:grey;
-	padding: 3px;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color: #fff;
 }
 
-h1 {
-	font-weight:bold;
-	font-family:Tahoma;
-		
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
-h2{
-	font-style:italic;
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.about h2,
+.projects h2,
+.contact h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.project-card {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
 }
