@@ -29,7 +29,7 @@ h2 {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    
+
 }
 
 header {
@@ -82,13 +82,14 @@ section {
 }
 
 .card {
-    border: 1px solid #fff;
+    
     padding: 20px 20px;
     margin: 20px 0;
+
 }
 .card:hover{
-    background-color: rgb(59, 4, 59);
-
+    background-color: rgba(79, 19, 0, 0.539);
+    border-radius: 15px;
 }
 .link {
     float: right;
@@ -104,7 +105,10 @@ a:hover {
 }
 
 footer {
-    background-color: #13001f;
+    background-color: #6800686e;
     padding: 10px 0;
     text-align: center;
+}
+ul{
+    list-style-type: none;
 }
