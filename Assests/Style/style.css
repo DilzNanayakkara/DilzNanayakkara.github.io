@@ -1,0 +1,42 @@
+.page{
+    text-align: center;
+    margin: auto;
+    margin: 0% 15% 0% 15%;
+}
+footer{
+    text-align: center;
+}
+h3{
+    font-style: italic;
+}
+.title{
+
+}
+.nav{
+    position:fixed;
+    overflow: hidden;
+    top: 20%; /* Position the navbar at the top of the page */
+
+}
+ul{
+    list-style-type:none;
+    padding: 0%;
+    margin: 10%;
+    background-color: #f1f1f1;
+
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+section{
+    border-radius: 2px 2px black;
+    border-style: groove;
+}
