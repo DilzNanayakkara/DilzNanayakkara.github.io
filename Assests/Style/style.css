@@ -5,11 +5,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: scroll;
   }
 
 .page{
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(255, 255, 255);
     padding: 0% 10% 0% 10%;
 }
   
@@ -17,6 +17,14 @@ body {
     background-color: #ffffff;
     color: #2c2c2c;
     text-align: center;
+
+  }
+
+  .left{
+    position:absolute;
+    right: 0;
+    top: 4;
+    width: 40%;
   }
 
 .nav{
@@ -45,43 +53,20 @@ body {
   }
   .links a:hover{
     color:#bd2929
-    
+
   }
-  
-  .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    bottom: 100%;
-  }
-  
-  .project-container {
-    max-width: 400px;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
+  .container {
+    overflow: hidden;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid #000000;
     border-radius: 8px;
+    max-width: 100%; /* Adjusted to be responsive */
   }
-  
-  .project-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+
+  .content{
+    overflow: hidden;
   }
-  
-  .project-container h2 {
-    margin-top: 10px;
+  iframe {
+    background-color: #ffffff;
   }
-  
-  .project-container p {
-    margin-top: 10px;
-  }
-  

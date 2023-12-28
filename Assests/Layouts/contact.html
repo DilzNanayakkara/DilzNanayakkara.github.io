@@ -1,33 +1,130 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type= "text/css" href="../Style/style.css">
+    <title>Contacts</title>
+    <style>
 
-    <link rel="stylesheet" type= "text/css" href="../Style/style.css    ">
 
-    <title>DilzNanayakkara's Site </title>
-
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 5%;
+        }
+        .contact-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+        .contact-box img {
+            width: 48px;
+            height: 48px;
+            margin-right: 10px;
+        }
+        .contact-box-text {
+            flex: 1;
+        }
+        .left-container,
+        .right-container {
+            width: 48%;
+        }
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <h1>Your Name</h1>
-      </header>
-    
-      <nav>
-        <a href="./about.html">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact Me</a>
-      </nav>
-      
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Your contact information and a form can go here.</p>
-      </section>
-    
-      <footer>
-        <p>Contact Me: your@email.com</p>
-        <p>Follow Me: <a href="#" target="_blank">Twitter</a> | <a href="#" target="_blank">LinkedIn</a></p>
-      </footer>
+
+  <center>
+
+    <div class="contact-container">
+        <!-- Left side -->
+        <div class="left-container">
+            <div class="contact-box">
+                <img src="../Img/email.png" alt="Email Icon">
+                <div class="contact-box-text">
+                  <p><strong>dilz.nanayakkara@gmail.com</a></strong> </p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <img src="../Img/linkedin.png" alt="LinkedIn Icon">
+                <div class="contact-box-text">
+                  <p><strong><a href="www.linkedin.com/in/dilshan-nanayakkara-001-" target="_blank">Linkedin</a></strong> </p>
+                </div>
+            </div>
+
+
+            <div class="contact-box">
+                <img src="../Img/instagram.png" alt="Instagram Icon">
+                <div class="contact-box-text">
+                  <p><strong><a href="https://www.instagram.com/dilznanayakkara/" target="_blank">Instagram</a></strong> </p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+              <img src="../Img/X.png" alt="X Icon">
+              <div class="contact-box-text">
+                <p><strong>X/@DilzNanayakkara</a></strong> </p>
+              </div>
+              </div>
+              
+              <div class="contact-box">
+                <img src="../Img/medium.png" alt="Medium Icon">
+                <div class="contact-box-text">
+                  <p><strong><a href="https://medium.com/@dilz.nanayakkara" target="_blank">Medium</a></strong> </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Right side -->
+
+        
+        <div class="right-container">
+            
+
+            
+            <div class="contact-box">
+              <img src="../Img/github.png" alt="GitHub Icon">
+              <div class="contact-box-text">
+                <p><strong><a href="https://github.com/DilzNanayakkara" target="_blank">Github</a></strong> </p>
+              </div>
+          </div>
+
+            <div class="contact-box">
+                <img src="../Img/tryhackme.png" alt="TryHackMe Icon">
+                <div class="contact-box-text">
+                  <p><strong><a href="https://tryhackme.com/p/dilz.nanayakkara" target="_blank">Tryhackme</a></strong> </p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <img src="../Img/intigriti.png" alt="Intigriti Icon">
+                <div class="contact-box-text">
+                  <p><strong><a href="https://app.intigriti.com/profile/your-intigriti-username" target="_blank">Intigriti</a></strong> </p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <img src="../Img/discord.png" alt="Discord Icon">
+                <div class="contact-box-text">
+                  <p><strong>Discord/K0K1S#2477</a></strong> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </center>
+
 </body>
 </html>

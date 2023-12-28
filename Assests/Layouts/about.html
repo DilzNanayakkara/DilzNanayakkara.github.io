@@ -1,5 +1,69 @@
-<html>
-  <body>
-     
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Style/style.css">
+    <title>About Me</title>
+    <style>
+        .container1 {
+            display: flex;
+        }
+
+        .left-side {
+            width: 25%;
+            background-color: #ffffff67;
+            text-align: center;
+            padding-left: 10%;
+            padding-top: 10%;
+        }
+
+        .left-side img {
+            width: 100%;
+        }
+
+        .right-side {
+            
+            flex: 1;
+            padding: 20px;
+            padding-left: 10%;
+        }
+
+        .download-resume {
+            margin-top: 20px;
+        }
+
+        .download-resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .download-resume a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="container1">
+        <div class="left-side">
+            <!-- Photo goes here -->
+            <img src="../Img/Me.jpg" alt="Dilshan">
+        </div>
+
+        <div class="right-side">
+            <h1>About Me</h1>
+            <p>I'm a Cyber Security Undergraduate</p>
+            <div class="download-resume">
+                <a href="../My Resume.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </div> 
+
+</center>
+</body>
 </html>
