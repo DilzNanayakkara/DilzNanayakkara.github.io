@@ -58,6 +58,7 @@ h1 {
   }
   
   .links a {
+    background-image: url('../Img/Texture.jpg');
     background-color: #000000;
     color: #ffffff;
     border-radius: 5px;
@@ -81,4 +82,11 @@ h1 {
 
 iframe{
   background-color: #ffffff;
+}
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  height: 10%;
+  padding: 2%;
+  background-image: url('../Img/Texture.jpg')
 }
