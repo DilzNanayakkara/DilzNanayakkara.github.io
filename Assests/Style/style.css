@@ -1,24 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-body {
+
+.content {
+    height: 100vh;
+    overflow: hidden;
+    border-top: 6px solid black
+}
+
+body, html {
     font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    overflow: scroll;
   }
 
 .page{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(44, 44, 44);
     padding: 0% 10% 0% 10%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
 }
   
 .header {
     background-color: #ffffff;
     color: #2c2c2c;
     text-align: center;
+}
 
-  }
+h1 {
+  font-size: 40px; /* Adjust the font size as needed */
+}
 
   .left{
     position:absolute;
@@ -40,19 +52,22 @@ body {
   .links {
     display: flex;
     justify-content: flex-end;
-    background-color: #ffffff;
     padding: 0.5% 0.5%;
     width: 50%;
+    
   }
   
   .links a {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
     text-decoration: none;
-    padding: 1%;
+    margin-left: 4%;
+    margin-right: 2%;
+    padding: 2%;
   }
   .links a:hover{
-    color:#bd2929
+    background-color: #2980b9;
 
   }
   .container {
@@ -64,9 +79,6 @@ body {
     max-width: 100%; /* Adjusted to be responsive */
   }
 
-  .content{
-    overflow: hidden;
-  }
-  iframe {
-    background-color: #ffffff;
-  }
+iframe{
+  background-color: #ffffff;
+}
